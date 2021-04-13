@@ -1,0 +1,19 @@
+version: "3"
+
+services:
+  cliapp:
+    build:
+        context: 'C:\DevOps\Exercises\Workshop 5\dockerfiles'
+        dockerfile: Dockerfile.cliapp
+    volumes: 
+     - 'C:\DevOps\Exercises\Workshop 5\dockerfiles\Chimera\Log\chimera:/var/log/chimera'
+     - 'C:\DevOps\Exercises\Workshop 5\dockerfiles\Chimera\Data:/opt/chimera/data'
+  webapp:
+    build:
+        context: 'C:\DevOps\Exercises\Workshop 5\dockerfiles'
+        dockerfile: Dockerfile.webapp
+    volumes: 
+     - 'C:\DevOps\Exercises\Workshop 5\dockerfiles\Chimera\Log:/var/log/chimera'
+     - 'C:\DevOps\Exercises\Workshop 5\dockerfiles\Chimera\Data:/opt/chimera/data'
+    ports: 
+     - "8080:80"

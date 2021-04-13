@@ -1,0 +1,54 @@
+10:49:42.086 TRACE OKLA_APP =========================================== 
+10:49:42.087 TRACE OKLA_APP Start the process 
+10:49:42.087 TRACE LOAD_DATA Load data called with the following options 
+10:49:42.087 DEBUG LOAD_DATA {"version":"0.0.1","i":"hour.chi","datasetName":"all_hour"} 
+10:49:42.087 TRACE LOAD_DATA Read file called with path: hour.chi 
+10:49:42.087 TRACE LOAD_DATA Attempting to open: hour.chi 
+10:49:42.087 TRACE LOAD_DATA Successfully read file hour.chi 
+10:49:42.087 TRACE LOAD_DATA Number of lines extracted from file: 10 
+10:49:42.087 TRACE LOAD_DATA Converting from CHI format 
+10:49:42.087 TRACE LOAD_DATA Could not load data from 10 as it is empty. Skipping record. 
+10:49:42.087 DEBUG OKLA_APP Items found: 9 
+10:49:42.087 TRACE FILTER_DATA Starting to filter 
+10:49:42.087 TRACE FILTER_DATA Filtering completed 
+10:49:42.087 DEBUG OKLA_APP Items after filtering: 9 
+10:49:42.087 DEBUG OKLA_APP Items after transformation: undefined 
+10:49:42.087 TRACE OUTPUT_DATA Attempting to save to data folder. 
+10:49:42.098 TRACE OKLA_APP Finishing the process 
+10:49:42.098 TRACE OKLA_APP Exiting. Bye! 
+10:49:42.588 TRACE OKLA_APP =========================================== 
+10:49:42.588 TRACE OKLA_APP Start the process 
+10:49:42.588 TRACE LOAD_DATA Load data called with the following options 
+10:49:42.588 DEBUG LOAD_DATA {"version":"0.0.1","i":"hour.chi","datasetName":"all_day"} 
+10:49:42.588 TRACE LOAD_DATA Read file called with path: hour.chi 
+10:49:42.588 TRACE LOAD_DATA Attempting to open: hour.chi 
+10:49:42.589 TRACE LOAD_DATA Successfully read file hour.chi 
+10:49:42.589 TRACE LOAD_DATA Number of lines extracted from file: 191 
+10:49:42.589 TRACE LOAD_DATA Converting from CHI format 
+10:49:42.589 TRACE LOAD_DATA Could not load data from 191 as it is empty. Skipping record. 
+10:49:42.589 DEBUG OKLA_APP Items found: 190 
+10:49:42.589 TRACE FILTER_DATA Starting to filter 
+10:49:42.589 TRACE FILTER_DATA Filtering completed 
+10:49:42.589 DEBUG OKLA_APP Items after filtering: 190 
+10:49:42.589 DEBUG OKLA_APP Items after transformation: undefined 
+10:49:42.589 TRACE OUTPUT_DATA Attempting to save to data folder. 
+10:49:42.602 TRACE OKLA_APP Finishing the process 
+10:49:42.602 TRACE OKLA_APP Exiting. Bye! 
+10:49:43.740 TRACE OKLA_APP =========================================== 
+10:49:43.740 TRACE OKLA_APP Start the process 
+10:49:43.740 TRACE LOAD_DATA Load data called with the following options 
+10:49:43.740 DEBUG LOAD_DATA {"version":"0.0.1","i":"hour.chi","datasetName":"all_week"} 
+10:49:43.740 TRACE LOAD_DATA Read file called with path: hour.chi 
+10:49:43.740 TRACE LOAD_DATA Attempting to open: hour.chi 
+10:49:43.741 TRACE LOAD_DATA Successfully read file hour.chi 
+10:49:43.741 TRACE LOAD_DATA Number of lines extracted from file: 2033 
+10:49:43.741 TRACE LOAD_DATA Converting from CHI format 
+10:49:43.743 TRACE LOAD_DATA Could not load data from 2033 as it is empty. Skipping record. 
+10:49:43.743 DEBUG OKLA_APP Items found: 2032 
+10:49:43.743 TRACE FILTER_DATA Starting to filter 
+10:49:43.743 TRACE FILTER_DATA Filtering completed 
+10:49:43.743 DEBUG OKLA_APP Items after filtering: 2032 
+10:49:43.743 DEBUG OKLA_APP Items after transformation: undefined 
+10:49:43.743 TRACE OUTPUT_DATA Attempting to save to data folder. 
+10:49:43.761 TRACE OKLA_APP Finishing the process 
+10:49:43.761 TRACE OKLA_APP Exiting. Bye! 
